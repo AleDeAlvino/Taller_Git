@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./cambio.js"></script>
+    <link rel="stylesheet" href="./estilos.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=PT+Serif&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <div id="contenedor">
+        <div id="encabezado">
+            <p id="text-encabezado">Taller de Git</p>
+        </div>
+        <div id="foto_git">
+            <img src="./images/git.png" id="ft_git"> 
+        </div>
+        <div id="personas">
+            <div id="instructora">
+                <p id="Texto-instructora">Instructora:
+                    <br> Alejandra De Alvino Melgoza
+                    <br><img src="./images/ype2.jpeg" id="ft_inst">
+                </p>
+            </div>
+            <div id="alumnos">
+                <p id="texto-alumnos">Alumnos</p>
+                <div class="student" onclick="perfil_Ale()">
+                    <div class="circulo_alumno">
+                        <img src="./images/tiranosaurio.png" class="img_alumno">
+                    </div>
+                    <p class="texto_nombre_alumno">Alejandro Monjaraz</p>
+                </div>
+                <div class="student" onclick="perfil_Abi()">
+                    <div class="circulo_alumno">
+                        <img src="./images/dinosaurio_2.png" class="img_alumno">
+                    </div>
+                    <p class="texto_nombre_alumno">Abigail Sr</p>
+                </div>
+                <div class="student" onclick="perfil_Enrique()">
+                    <div class="circulo_alumno">
+                        <img src="./images/dinosaurio_3.png" class="img_alumno">
+                    </div>
+                    <p class="texto_nombre_alumno">Enrique Montes</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
