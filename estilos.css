@@ -1,0 +1,201 @@
+*{margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    background: transparent;
+  }
+
+#contenedor{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+#encabezado{
+    position: relative;
+    float: left;
+    width: 100%;
+    height: 20%;
+    background: rgb(2,0,36);
+    background: linear-gradient(121deg, rgba(2,0,36,1) 0%, rgba(97,10,25,1) 66%, rgba(255,255,255,1) 100%);
+    text-align: center;
+}
+
+#text-encabezado{
+    font-family: 'Roboto Slab', serif;
+    font-size: 500%;
+    color: aliceblue;
+}
+
+#foto_git{
+    position: absolute;
+    width: 12.5%;
+    height: 25%;
+    background-color: black;
+    border-radius: 50%;
+    border: 3px solid white;
+    top: 15%;
+    left: 44%;
+}
+
+#ft_git{
+    margin-top: 16px;
+    margin-left: 24px;
+    margin-right: 15px;
+    width: 75%;
+    height: 80%;
+    border-radius: 50%;
+}
+
+#personas{
+    position: relative;
+    float: left;
+    width: 100%;
+    /* background-color: aqua; */
+}
+
+#instructora{
+    position: relative;
+    float: left;
+    width: 50.5%;
+    /* background-color: antiquewhite; */
+    border-right: 2px solid black;
+    margin-top: 10%;
+}
+
+#Texto-instructora{
+    font-size: 200%;
+    font-family: 'PT Serif', serif;
+    color: #9A0526;
+    margin-left: 20%;
+}
+
+#ft_inst{
+    position: relative;
+    float: left;
+    width: 20%;
+    border-radius: 2ch;
+    margin-top: 5%;
+    margin-left: 25%;
+}
+
+#alumnos{
+    position: relative;
+    float: left;
+    width: 49%;
+    /* background-color: purple; */
+}
+
+#texto-alumnos{
+    font-size: 200%;
+    font-family: 'PT Serif', serif;
+    color: #9A0526;
+    margin-left: 45%;
+    margin-top: 5%;
+}
+
+.student{
+    position: relative;
+    float: left;
+    width: 70%;
+    height: 12vh;
+    background-color: #AB0D2F;
+    left: 20%;
+    margin-top: 5%;
+    border-radius: 2ch;
+}
+
+.circulo_alumno{
+    position: relative;
+    float: left;
+    width: 14%;
+    height: 80%;
+    background-color: black;
+    border-radius: 50%;
+    top: 9%;
+    left: 3%;
+}
+
+.texto_nombre_alumno{
+    position: relative;
+    float: left;
+    font-size: 200%;
+    color: white;
+    top: 25%;
+    left: 7%;
+}
+
+.img_alumno{
+    margin-top: 8px;
+    margin-left: 13px;
+    margin-right: 15px;
+    width: 75%;
+    height: 80%;
+    border-radius: 50%;
+}
+
+.student:hover{
+    background-color: #68091E;
+    cursor: pointer;
+}
+
+
+/* --------------- PERFIL -------------- */
+
+#datos{
+    position: relative;
+    float: left;
+    width: 30%;
+    height: 100%;
+    background-color: #68091E;
+}
+
+#descripcion{
+    position: relative;
+    float: left;
+    width: 70%;
+    height: 100%;
+}
+
+#fondo_perfil{
+    position: relative;
+    float: right;
+    height: 100%;
+}
+
+#foto_perfil{
+    position: relative;
+    float: left;
+    width: 50%;
+    height: 30%;
+    background-color: black;
+    border-radius: 50%;
+    top: 5%;
+    left: 23%;
+}
+
+#ft_perf{
+    margin-top: 8px;
+    margin-left: 13%;
+    margin-right: 15px;
+    width: 75%;
+    height: 80%;
+    border-radius: 50%;
+}
+
+#nombre_alumno{
+    position: relative;
+    float: left;
+    font-size: 200%;
+    color: white;
+    top: 30%;
+    left: 7%;
+}
+
+#txt_desc{
+    position: relative;
+    float: left;
+    left: 8%;
+    font-size: 150%;
+    top: 10%;
+}
