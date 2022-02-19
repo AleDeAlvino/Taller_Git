@@ -1,5 +1,5 @@
 function perfil_Ale(){
-    window.location="perfil.html";
+    window.location="alejandro.html";
 }
 
 function perfil_Abi(){
